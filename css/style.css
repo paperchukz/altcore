@@ -17,7 +17,7 @@ html, body{
 	display: block;
 	margin-left: 20px;
 	margin-right: auto;
-	
+	padding-top: 20px;
 }
 
 .preloader {
