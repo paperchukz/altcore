@@ -7232,7 +7232,9 @@ footer.page-footer {
   bottom: 0;
   color: #fff; }
   footer.page-footer .container-fluid {
-    width: auto; }
+    width: auto; 
+    padding-right: 25px;
+  }
   footer.page-footer .footer-copyright {
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.2);

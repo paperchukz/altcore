@@ -9,21 +9,51 @@ html, body{
 	color: #555;
 }
 
-.container-fluid{
-	padding: 0;
+.atas{
+	margin-top: 90px;
 }
+
+.center {
+	display: block;
+	margin-left: 20px;
+	margin-right: auto;
+	
+}
+
+.preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background-color: #fff;
+  }
+.preloader .loading {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	font: 14px arial;
+  }
 
 nav li{
 	padding-left: 7px;
 	padding-right: 10px;
-	text-align: center;
+	/* tex;t-align:  */
 	font-size: 14px;
 	font-weight: 500;
 }
 
 .navbar.navbar-light .navbar-nav .nav-item .nav-link{
 	color: #555;
+	font-size: 15px;
 }
+
+.navbar1 {
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	font-weight: 300; }
 
 .navbar a{
 	display: inline-block;
@@ -42,8 +72,8 @@ nav li{
 }
 
 .navbar-scroll{
-	-webkit-box-shadow: none;
-	        box-shadow: none;
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 .navbar-brand{
@@ -61,6 +91,16 @@ nav li{
 .navbar-nav a:hover{
 	-webkit-box-shadow: inset 0px -3px 0px 0px #33b5e5;
 	        box-shadow: inset 0px -3px 0px 0px #33b5e5;
+}
+
+.log{
+	padding-top: 15px; 
+	padding-left: 15px; 
+	color:#757575 ;
+}
+
+.grey.darken-3{
+	margin-top: 0px;
 }
 
 .container-main{
@@ -81,12 +121,36 @@ nav li{
 	        justify-content: space-between;
 }
 
+.bd{
+	padding-left: 40px; 
+}
+
+.bd1{
+	padding-left:30px; 
+	margin-bottom: 15px;  
+	border-right: 1px solid #424242;
+}
+
+.bd2{
+	padding-left: 40px; 
+	margin-bottom: 15px; 
+	border-left: 1px solid#424242;
+}
+
 .img{
+
+	margin-top: 25px;
+	float: right;
+}
+
+.img2{
+
+	text-align: center;
 }
 
 .wrapper img{
 	max-width: 100%;
-	width: 700px;
+	width: 200px;
 	height: auto;
 	margin-top: 70px;
 }
@@ -153,6 +217,7 @@ h4{
 
 .service-title{
 	margin-top: 20px;
+	text-align: center;
 }
 
 .service-1{
@@ -193,6 +258,7 @@ h4{
 .service-desc{
 	margin-top: 10px;
 	height: 70px;
+	text-align: center;
 }
 
 .services{
@@ -231,7 +297,12 @@ h4{
 	background: lightgrey;
 }
 
- footer{
+.ft{
+	width: auto; 
+    padding-right: 25px;
+}
+
+ /* footer{
  	margin-top: 200px;
 	background-color: #222;
 	width: 100%;
@@ -241,16 +312,16 @@ h4{
 	font-weight: 500;
 	font-size: 0.8rem;
 	border-top: 2px solid lightgrey;
-}
+} */
 
-.footer{
+/* .footer{
 	justify-content: space-between;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	padding-left: 50px;
 	padding-right: 50px;
-} 
+}  */
 
 .form{
 	width: 500px;
@@ -267,7 +338,7 @@ h4{
 	margin-bottom: 10px;
 }
 
-.footer-padding{
+/* .footer-padding{
 	padding-left: 120px;
 	padding-right: 120px;
 }
@@ -309,7 +380,7 @@ footer a:hover{
 	border-top: 0.5px solid lightgrey;
 	width: 100%;
 	height: 80px;
-}
+} */
 
 @media(max-width: 900px){
 	.navbar-nav a:hover{
@@ -318,6 +389,44 @@ footer a:hover{
 	}
 
 	.navbar-nav li{
+	}
+
+	.atas{
+		margin-top: 55px;
+	}
+
+	.center {
+		display: block;
+		margin-left: 0px;
+		margin-right: 0px;
+		
+	}
+
+
+	.bd{
+		padding-left: 40px; 
+	}
+
+	.bd1{
+		padding-left:30px; 
+		margin-bottom: 15px;  
+		border-right: 0px solid	#424242;
+	}
+
+	.bd2{
+		padding-left: 40px; 
+		margin-bottom: 15px; 
+		border-left: 0px solid #424242;
+	}
+
+	.navbar {
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: 15px;
+		padding-right: 15px;
+		background: #f2f2f2;
+			background-color: rgb(242, 242, 242);
+		transition: 0.5s;
 	}
 
 	.wrapper{
@@ -331,11 +440,24 @@ footer a:hover{
 		text-align: center;
 	}
 
+	.img{
+
+		margin-top: 25px;
+		
+	}
+
 	.wrapper img{
 		max-width: 100%;
 		width: 700px;
 		height: auto;
 		margin-top: 0;
+	}
+
+	.tile{
+		font-size: 15px;
+		text-align: center;
+		margin-top: -45px;
+		text-transform: capitalize;
 	}
 
 	.text{
@@ -391,7 +513,7 @@ footer a:hover{
 		height: 200px;
 	}
 
-	footer{
+	/* footer{
 		padding-left: 15px;
 		padding-right: 15px;
 	}
@@ -412,5 +534,6 @@ footer a:hover{
 		margin-bottom: 50px;
 		margin-right: 0;
 		border: none;
-	}
+	} */
+
 }
