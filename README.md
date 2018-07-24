@@ -1,1 +1,1 @@
-# altcore.github.io
+# altcoresol.github.io
