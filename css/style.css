@@ -82,7 +82,7 @@ nav li{
 	padding-right: 40px;
 	padding-left: 40px;
 	padding-bottom: 200px;
-	/* height: 1000px; */
+	height: 700px;
 }
 
 .hero{
@@ -178,7 +178,7 @@ nav li{
 	padding-top: 85px;
 	padding-bottom: 130px;
 	background-image: linear-gradient(to top, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff);
-	height: 1010px;
+	height: 800px;
 }
 
 .services-container h2{
@@ -190,7 +190,7 @@ nav li{
 }
 
 .services{
-	margin: 0 auto;
+	margin:  0 auto;
 	margin-top:60px;
 	max-width: 1500px;
 	display: -webkit-box;
